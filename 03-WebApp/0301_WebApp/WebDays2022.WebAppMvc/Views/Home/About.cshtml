@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "About me";
+}
+<h1>@ViewData["Title"]</h1>
+
+<feature name="@nameof(FeatureFlags.AboutPage), @nameof(FeatureFlags.AboutPage_Details)" requirement="Any">
+    <p>Ecco qualche informazione in più su di me...</p>
+</feature>
+
+<feature name="@nameof(FeatureFlags.AboutPage), @nameof(FeatureFlags.AboutPage_Details)" requirement="All">
+    <p>Ciao, sono Gianni e sono Software engineer presso CodicePlastico!</p>
+</feature>
+<feature name="@nameof(FeatureFlags.AboutPage), @nameof(FeatureFlags.AboutPage_Details)" requirement="All" negate="true">
+    <p>Ops! Al momento non ho molto da condividere. Torna a trovarmi!!!</p>
+</feature>

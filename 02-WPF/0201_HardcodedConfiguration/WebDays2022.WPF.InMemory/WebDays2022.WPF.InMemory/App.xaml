@@ -1,0 +1,9 @@
+﻿<Application x:Class="WebDays2022.WPF.InMemory.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WebDays2022.WPF.InMemory"
+             Startup="OnStartup">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
